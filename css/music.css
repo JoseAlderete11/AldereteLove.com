@@ -1,0 +1,16 @@
+*{-webkit-box-sizing:border-box;margin:0;padding:0;}
+.div_music_tips{position:fixed;top:70px;z-index:999;}
+.div_btn{position:fixed;z-index:999;width:42px;height:42px;border:2px solid #fff;border-radius:50%;text-align:center;font-size:1em;line-height:40px;cursor:pointer;}
+#div_music{top:30px;border:none;}
+.div_record_tips{position:fixed;top:140px;z-index:999;}
+#div_record{top:100px;background-color:rgba(0,0,0,.5);}
+.musica{position: fixed; top: 10px; display: inline-block; right: 10px; height: 30px; opacity: 0.5;
+    animation-name: girated; animation-duration: 3s;
+    animation-iteration-count: infinite; animation-timing-function: linear;}
+    @keyframes girated {
+        from{
+            transform:rotate(0deg);
+        }to{
+            transform:rotate(360deg);
+        }
+    }
